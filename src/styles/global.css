@@ -1,0 +1,10 @@
+.box{
+height: 190px;
+padding: 8px;
+}
+.box:nth-child(even){
+    color: #cccccc;
+}
+.box:nth-child(odd){
+    color: #aaaaaa;
+}
