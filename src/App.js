@@ -20,7 +20,7 @@ export class App extends React.Component {
 
       <div className='container-fluid'>
         <div className='row'>
-          <Box />
+          <Box icon={"directions_walk" } color={"red"}/>
           <p>Heart : {this.heartMin}</p>
           <p>Temperature : {this.tempMin}</p>
           <p> Steps : {this.stepsMin}</p>
